@@ -12,6 +12,7 @@ phases:
     commands:
       - ls -la build
       - cp Dockerfile build/Dockerfile
+      - cp nginx.conf build/nginx.conf
 artifacts:
   files:
     - '**/*'
